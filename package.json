@@ -1,0 +1,15 @@
+{
+  "name": "justlog",
+  "version": "1.0.0",
+  "description": "X.Y.Z.'s Blog.",
+  "main": "./built/index.js",
+  "author": "X.Y.Z.",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.45",
+    "@types/node": "^10.1.2"
+  }
+}

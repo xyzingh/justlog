@@ -1,8 +1,8 @@
 import * as Koa from 'koa'
-import sites from './sites'
+import router from './sites'
 
 const app = new Koa()
 
-app.use(sites())
+app.use(router())
 
 app.listen(80)
