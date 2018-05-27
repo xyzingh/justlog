@@ -6,7 +6,9 @@
   "author": "X.Y.Z.",
   "license": "MIT",
   "dependencies": {
-    "koa": "^2.5.1"
+    "@types/koa-static": "^4.0.0",
+    "koa": "^2.5.1",
+    "koa-static": "^4.0.3"
   },
   "devDependencies": {
     "@types/koa": "^2.0.45",

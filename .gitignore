@@ -1,7 +1,7 @@
 .tmp
-config.json
 built
-log
+config.json
+public
 
 # Logs
 logs

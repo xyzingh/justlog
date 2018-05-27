@@ -40,13 +40,12 @@ let router = () => {
 
         if (vh !== void 0) {
             console.log(`Host: ${vh.host}`)
-            vh.middleware(ctx, next)
+            return vh.middleware(ctx, next)
         }
         else {
             vh = defaultSite
-            console.log('Access to ' + ctx.hostname)
-            console.log(`Default Host: ${vh.host}`)
-            vh.middleware(ctx, next)
+            console.log('(Default) Access to ' + ctx.hostname)
+            return vh.middleware(ctx, next)
         }
     }
 }
